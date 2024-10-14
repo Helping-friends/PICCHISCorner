@@ -60,6 +60,7 @@ nav a:hover {
 }
 
 .image-container {
+    position: relative;
     text-align: center;
     margin: 10px;
     max-width: 400px; /* Limit max width for larger screens */
@@ -70,13 +71,20 @@ nav a:hover {
     height: auto;
     border-radius: 10px;
     display: block;
-    margin: 0 auto;
 }
 
-.image-container figcaption {
-    margin-top: 10px;
-    font-size: 1.2em;
-    color: #333;
+.image-text {
+    position: absolute;
+    bottom: 10px; /* Adjust position for text */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background for text readability */
+    color: white;
+    padding: 5px;
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
 /* Footer Styling */

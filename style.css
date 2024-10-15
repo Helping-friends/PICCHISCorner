@@ -1,6 +1,8 @@
 .header {
+  display: block;
   text-align: center;
   background-color: gray;
+  margin: 0px;
 }
 
 .section {

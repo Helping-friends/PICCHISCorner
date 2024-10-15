@@ -1,10 +1,11 @@
 .header {
   text-align: center;
+  background-color: gray;
 }
 
 .section {
+  display: block;
   text-align: center;
-  background-image: gray;
 }
 
 .home-photo {

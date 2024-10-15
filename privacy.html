@@ -6,19 +6,87 @@
     <title>Privacy Policy - Picchi's Corner</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script> <!-- External JavaScript file -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .header {
+            background-color: #333;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        .back-home-button {
+            display: inline-block;
+            width: 250px;
+            padding: 15px 30px;
+            text-align: center;
+            background: linear-gradient(145deg, #6e7a82, #839ca1);
+            color: white;
+            border: 2px solid #5a6d77;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -5px 15px rgba(255, 255, 255, 0.3);
+            margin: 20px;
+        }
+
+        .back-home-button:hover {
+            background: linear-gradient(145deg, #839ca1, #6e7a82);
+            transform: scale(1.05);
+            box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.3), -8px -8px 18px rgba(255, 255, 255, 0.4);
+        }
+
+        .back-home-button:active {
+            background: linear-gradient(145deg, #6e7a82, #839ca1);
+            transform: scale(1);
+            box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.3), inset -3px -3px 8px rgba(255, 255, 255, 0.3);
+        }
+
+        .back-home-button span {
+            display: block;
+            padding: 5px;
+            font-size: 12px;
+            opacity: 0;
+            animation: fadeIn 0.6s ease forwards;
+            animation-delay: 0.2s;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
 </head>
-<body>
-    <div class="homepage">
-        <header>
-            <div class="header">
-                <h1>Privacy Policy</h1>
-            </div>
-        </header>
 
         <div class="section">
             <h2>1. Introduction</h2>
             <p>Welcome to <strong>Picchi's Corner</strong>! We value your privacy and are committed to ensuring that your personal data is protected. This Privacy Policy outlines the types of information we collect, how we use it, the steps we take to safeguard it, and your rights regarding your personal data.</p>
-            <p>By visiting our website, www.picchiscorner.com, using our services, or interacting with us, you agree to the terms of this Privacy Policy. If you disagree with any aspect of this policy, please refrain from using our website.</p>
+            <p>By visiting our website, https://helping-friends.github.io/Simple-E-Commerce-Website/, using our services, or interacting with us, you agree to the terms of this Privacy Policy. If you disagree with any aspect of this policy, please refrain from using our website.</p>
             <p>We reserve the right to modify this Privacy Policy at any time. When we make significant changes, we will post the updated policy on this page with a new "Last Updated" date. Please review this policy periodically to stay informed about how we protect your personal information.</p>
 
             <h2>2. Information We Collect</h2>
@@ -136,9 +204,9 @@
             <h2>11. Contact Us</h2>
             <p>If you have any questions about this Privacy Policy or our data practices, please contact us:</p>
             <p><strong>Picchi's Corner</strong></p>
-            <p>Email: [your-email]</p>
-            <p>Phone: [your-phone]</p>
-            <p>Address: [your-address]</p>
+            <p>Email: ()</p>
+            <p>Phone: ()</p>
+            <p>Address: ()</p>
 
             <a href="index.html" class="back-home-button">Back to Home</a>
         </div>

@@ -52,7 +52,7 @@ header {
   margin: 20px auto;
   padding: 10px 20px;
   text-align: center;
-  background-color: gray;
+  background-color: rgb(250, 250, 250);
   color: white;
   border: none;
   border-radius: 5px;
@@ -61,5 +61,5 @@ header {
   text-decoration: none;
 }
 .back-home-button:hover {
-  background-color: darkgray;
+  background-color: rgb(255, 255, 255);
 }

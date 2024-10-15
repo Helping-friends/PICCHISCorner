@@ -4,7 +4,7 @@
 
 .section {
   text-align: center;
-  background-image: url('');
+  background-image: gray;
 }
 
 .home-photo {
@@ -18,7 +18,8 @@
   width: 45%;              
   max-width: 300px;          
   margin: 10px;              
-  border-radius: 10px;       
+  border-radius: 10px;
+  display: column;
 }
 
 .footer {

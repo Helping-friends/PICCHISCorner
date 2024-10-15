@@ -45,3 +45,21 @@ header {
   flex-direction: column;    
   align-items: center;       
 }
+
+.back-home-button {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.back-home-button:hover {
+  background-color: darkgray;
+}

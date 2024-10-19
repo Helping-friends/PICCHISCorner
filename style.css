@@ -73,3 +73,23 @@ a {
   text-shadow: 5px;
   font-family: fantasy , papyrus;
 }
+
+.price-box {
+  background-color: #f8d7da; 
+  color: #721c24;           
+  padding: 10px 20px;    
+  font-size: 24px;         
+  font-weight: bold;       
+  border-radius: 8px;    
+  border: 2px solid #f5c6cb; 
+  display: inline-block; 
+}
+
+
+.menu {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}

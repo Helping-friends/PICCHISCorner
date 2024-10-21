@@ -73,3 +73,14 @@ a {
   text-shadow: 5px;
   font-family: fantasy , papyrus;
 }
+
+.menu img {
+  width: 150px; 
+  height: auto; 
+}
+
+a:hover {
+  color: gold; 
+  text-decoration: underline; 
+}
+

@@ -3,32 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple E-Commerce Site</title>
+    <title>Simple E-Commerce Site - Checkout</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<body>
+    <div class="container">
+        <h1>Checkout</h1>
+        <form class="checkout-form">
+            <div class="input">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" required />
+            </div>
 
-    <h1>Checkout</h1>
-        <div class="input">
-            <label>First Name</label>
-            <input type="text" required="required"/>
-        </div>
+            <div class="input">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" required />
+            </div>
 
-        <div class="input">
-            <label>Last Name</lebel>
-            <input type="text" required="required"/>
-        </div>
+            <div class="input">
+                <label for="email">Email</label>
+                <input type="email" id="email" required />
+            </div>
 
-        <div class="input">
-            <label>Email</lebel>
-            <input type="email" required="required"/>
-        </div>
+            <div class="input">
+                <label for="address">Address</label>
+                <input type="text" id="address" required />
+            </div>
 
-        <div class="input">
-            <lebel>Address</lebel>
-            <input type="text" required="required"/>
-        </div>
+            <div class="input">
+                <label for="card-number">Card Number</label>
+                <input type="number" id="card-number" required />
+            </div>
 
-        <div class="input">
-            <label>Card Number</label>
-            <input type="number" required="required"/>
-        </div>
+            <button type="submit" class="submit-btn">Complete Purchase</button>
+        </form>
+    </div>
+</body>
+</html>

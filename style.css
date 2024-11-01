@@ -1,3 +1,10 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
 header {
   width: 100%;
   padding: 20px 0;
@@ -57,21 +64,22 @@ header {
   padding: 10px 20px;
   text-align: center;
   background-color: rgb(250, 250, 250);
-  color: white;
+  color: black; /* Changed to black for contrast */
   border: none;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
   text-decoration: none;
 }
+
 .back-home-button:hover {
   background-color: rgb(255, 255, 255);
 }
 
 a {
-  color: rgb(255, 255, 255);
+  color: rgb(31, 12, 140);
   text-shadow: 5px;
-  font-family: fantasy , papyrus;
+  font-family: fantasy, papyrus;
 }
 
 .menu img {
@@ -80,13 +88,34 @@ a {
 }
 
 a:hover {
-  color: gold; 
+  color: rgb(6, 18, 110); 
   text-decoration: underline; 
 }
 
 .input {
   text-align: center;
-  border: 1px;
+  border: 1px solid black; /* Added solid border for clarity */
   border-radius: 5px;
-  border-color: black;
+  padding: 10px; /* Added padding for better appearance */
+  margin: 10px 0; /* Added margin for spacing */
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
 }

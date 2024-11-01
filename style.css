@@ -84,3 +84,9 @@ a:hover {
   text-decoration: underline; 
 }
 
+.input {
+  text-align: center;
+  border: 1px;
+  border-radius: 5px;
+  border-color: black;
+}

@@ -6,4 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
         window.location.href = "index.html";  // Redirect to the homepage
     });
 });
- 
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("JavaScript is loaded and ready to go!");
+});
